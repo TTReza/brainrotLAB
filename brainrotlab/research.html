@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research - BrainRot Lab</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center text-white font-bold text-2xl">BR</div>
+        <h1 class="text-2xl font-semibold tracking-tight text-gray-900">BrainRot Lab</h1>
+      </div>
+      <div class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="index.html" class="hover:text-indigo-600 transition">Home</a>
+        <a href="research.html" class="text-indigo-600 font-semibold">Research</a>
+        <a href="team.html" class="hover:text-indigo-600 transition">Team</a>
+        <a href="publications.html" class="hover:text-indigo-600 transition">Publications</a>
+        <a href="about.html" class="hover:text-indigo-600 transition">About</a>
+      </div>
+      <a href="team.html#join" class="bg-indigo-600 text-white px-6 py-3 rounded-2xl hover:bg-indigo-700 transition text-sm font-medium">
+        Join Us
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="pt-24 pb-16 bg-white text-center">
+    <h1 class="text-5xl font-bold text-gray-900">Our Research</h1>
+    <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
+      Advancing the frontiers of Brain-Computer Interfaces, Machine Learning, and Signal Processing.
+    </p>
+  </section>
+
+  <!-- Current Research -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Current Research</h2>
+      
+      <div class="swiper currentResearchSwiper">
+        <div class="swiper-wrapper">
+
+          <!-- Project Card 1 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/current1.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Hybrid Deep Learning for Real-Time Motor Imagery BCI</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Developing a novel hybrid CNN-Transformer architecture to improve decoding accuracy and reduce latency in motor imagery-based Brain-Computer Interfaces.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/current2.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Adaptive EEG Signal Processing Pipeline</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Creating an adaptive real-time signal processing framework for artifact removal and feature enhancement in non-stationary EEG data.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/current3.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Multi-Modal BCI for Cognitive Enhancement</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Integrating EEG and fNIRS data with machine learning to develop next-generation cognitive monitoring and enhancement systems.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/current4.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Neuro-Inspired Efficient Machine Learning Models</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Designing lightweight, brain-inspired neural networks optimized for edge devices in portable BCI applications.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <!-- Navigation -->
+        <div class="swiper-button-prev !text-indigo-600"></div>
+        <div class="swiper-button-next !text-indigo-600"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Research -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Past Research</h2>
+      
+      <div class="swiper pastResearchSwiper">
+        <div class="swiper-wrapper">
+
+          <!-- Past Project Card 1 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/past1.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">EEG-Based Mental Workload Assessment</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Investigated real-time mental workload classification using traditional signal processing and early machine learning techniques.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Past Project Card 2 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/past2.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Low-Cost Non-Invasive BCI Prototype</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Developed an affordable hardware-software integrated BCI system for basic cursor control using consumer-grade EEG headsets.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Past Project Card 3 -->
+          <div class="swiper-slide">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group">
+              <div class="h-56 bg-gray-200">
+                <img src="images/research/past3.jpg" alt="Project Title" class="w-full h-full object-cover group-hover:scale-105 transition">
+              </div>
+              <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Deep Learning for Seizure Detection</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Explored convolutional neural networks for early detection of epileptic seizures from long-term EEG recordings.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <!-- Navigation -->
+        <div class="swiper-button-prev !text-indigo-600"></div>
+        <div class="swiper-button-next !text-indigo-600"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="flex justify-center mb-6">
+        <div class="w-12 h-12 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center text-white font-bold text-3xl">BR</div>
+      </div>
+      <p class="text-2xl font-medium mb-2">BrainRot Lab</p>
+      <p class="text-gray-400">Chattogram, Bangladesh</p>
+      <p class="mt-10 text-sm text-gray-500">© 2026 BrainRot Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // Current Research Carousel
+    new Swiper('.currentResearchSwiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        1280: { slidesPerView: 3 }
+      }
+    });
+
+    // Past Research Carousel
+    new Swiper('.pastResearchSwiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        1280: { slidesPerView: 3 }
+      }
+    });
+  </script>
+</body>
+</html>
